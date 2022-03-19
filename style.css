@@ -168,8 +168,8 @@ nav ul li a:hover {
 }
 .service .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.3rem;
   padding-bottom: 3rem;
 }
 .service .box-container .box {
@@ -204,7 +204,7 @@ nav ul li a:hover {
 }
 /*Membership fees section*/
 .membership {
-  min-height: 60vh;
+  min-height: 100vh;
   background-image: linear-gradient(rgb(0, 2, 37, 0.5), transparent),
     url(/image/pexels-lukas-669576.jpg);
   background-repeat: no-repeat;
@@ -222,7 +222,7 @@ nav ul li a:hover {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  width: 100%;
+  width: 90%;
   border: 4px solid rgb(21, 0, 71);
 }
 .black {
@@ -302,14 +302,13 @@ input[type="submit"]:hover {
 /*footer section*/
 .footer {
   text-align: center;
-  background-color: #000000;
 }
 .footer .links {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding: 2rem 0;
-  gap: 1rem;
+  gap: 5rem;
 }
 .footer .links a {
   padding: 0.7rem 2rem;
